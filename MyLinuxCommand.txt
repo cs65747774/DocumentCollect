@@ -1,0 +1,8 @@
+1. found out the content in files
+	grep -r "Blank" ./
+2. Replace all the content to other content.
+	sed -i "s/garden/mirGarden/g" `ls`
+
+3. excludes git proxy
+	cmd:  export no_proxy hkfvm434.three.com.hk
+	setup the command to ./bash_profile

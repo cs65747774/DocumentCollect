@@ -1,0 +1,2 @@
+1. pip Download need trust-host
+	pip install flask --trusted-host pypi.org --trusted-host files.pythonhosted.org
